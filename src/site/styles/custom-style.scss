@@ -38,68 +38,6 @@ body {
     }
 }
 
-.toc {
-    padding-right: 5px;
-    background-color: var(--background-primary);
-    padding: 10px;
-    border-radius: 10px;
-    float: right;
-
-    ol {
-        list-style: none;
-        padding-left: 10px;
-        border-left: 2px solid var(--background-secondary);
-    }
-
-    & > ol {
-        padding-left: 0;
-        border-left: none;
-    }
-}
-
-.toc-container {
-    font-size: 1rem;
-    max-height: 220px;
-    overflow-y: auto;
-    margin-bottom: 10px;
-    border-left: 1px solid var(--text-accent);
-    ul {
-        list-style-type: none;
-        padding-inline-start: 15px !important;
-        margin-top: 0;
-        margin-bottom: 0;
-    }
-    ul:not(:first-child) {
-        margin-bottom: 3px;
-    }
-
-    li {
-        padding-top: 4px;
-        &::before {
-            content: "# " !important;
-            color: var(--text-accent);
-            font-size: 0.8rem;
-        }
-        a {
-            text-decoration: none;
-            &:hover {
-                text-decoration: underline;
-            }
-        }
-    }
-}
-
-.toc-title-container {
-    display: flex;
-    justify-content: flex-start;
-    .toc-title {
-        font-size: 1.2rem !important;
-        color: var(--h6-color);
-        width: fit-content;
-        padding: 3px 7px 3px 0;
-        border-radius: 10px 10px 0 0;
-    }
-}
     max-width:100%;
     clear:both;
     scrollbar-width: none;
