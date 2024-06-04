@@ -9,10 +9,11 @@ body {
     //  }
     //  h1 {
     //   color: black;
-    max-width:640px;
+    max-width:100%;
     clear:both;
     scrollbar-width: none;
 .content {
     padding: 16px;
+    float: left;
     }
 }
