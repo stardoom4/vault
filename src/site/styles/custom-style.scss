@@ -5,9 +5,6 @@ body {
     border-radius: 10px;
     padding: 10px;
     float: right;
-    padding-left: 16px;
-    position: sticky;
-    top: 0;
 
     .backlink-title {
         margin: 4px 0;
@@ -19,6 +16,9 @@ body {
     max-height: 200px;
     overflow-y: auto;
     overflow-x: hidden;
+    padding-left: 16px;
+    position: sticky;
+    top: 0;
 }
 
 .backlink-card {
