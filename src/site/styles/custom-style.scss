@@ -1,14 +1,38 @@
 body {
-    /***
-      ADD YOUR CUSTOM STYLING HERE. (INSIDE THE body {...} section.)
-      IT WILL TAKE PRECEDENCE OVER THE STYLING IN THE STYLE.CSS FILE.
-   ***/
-    //  background-color: white;
-    //  .content {
-    //   font-size: 14px;
-    //  }
-    //  h1 {
-    //   color: black;
+.backlinks {
+    flex: 1;
+    margin-top: 10px;
+    border-radius: 10px;
+    padding: 10px;
+    float: right;
+
+    .backlink-title {
+        margin: 4px 0;
+        font-size: 18px !important;
+    }
+}
+
+.backlink-list {
+    max-height: 200px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.backlink-card {
+    padding-bottom: 8px;
+    border-radius: 4px;
+    width: 100%;
+    font-size: 1rem;
+    margin-left: 10px;
+    i {
+        font-size: 0.8rem;
+    }
+
+    .backlink {
+        margin-left: 5px;
+    }
+}
+
     max-width:100%;
     clear:both;
     scrollbar-width: none;
