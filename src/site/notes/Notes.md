@@ -3,7 +3,7 @@
 ---
 
 All the Notes in this Memex
-- [[notes/coulomb-field-1\|coulomb-field-1]]
-- [[notes/bigbang\|bigbang]]
-- [[notes/cmb\|cmb]]
-- [[notes/Kohlrausch's Law works on strong or weak electrolyte\|Kohlrausch's Law works on strong or weak electrolyte]]
+- [[Index/coulomb-field-1\|coulomb-field-1]]
+- [[Index/bigbang\|bigbang]]
+- [[Index/cmb\|cmb]]
+- [[Index/Kohlrausch's Law works on strong or weak electrolyte\|Kohlrausch's Law works on strong or weak electrolyte]]
