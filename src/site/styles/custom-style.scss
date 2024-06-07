@@ -1,31 +1,4 @@
 body {
-.filetree-sidebar {
-    margin: 0;
-    z-index: 10;
-    padding: 10px;
-    top: 0px;
-    left: 0;
-    position: fixed;
-    height: 100%;
-    background-color: var(--background-secondary);
-    color: var(--text-muted);
-    overflow-y: auto;
-    width: 250px;
-    h1 {
-        font-size: 32px !important;
-    }
-    @media (max-width: 800px) {
-        h1 {
-            display: none;
-        }
-
-        .search-button {
-            width: 100%;
-            margin: 2px;
-        }
-    }
-}
-
 .backlinks {
     flex: 1;
     margin-top: 10px;
